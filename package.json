@@ -1,6 +1,6 @@
 {
   "name": "purejoyjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Virtual joystick with delegate function for JavaScript.",
   "keywords": [
     "joystick",
