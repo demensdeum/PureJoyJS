@@ -82,11 +82,6 @@ export class Joystick {
 
         ctx.clearRect(0, 0, this.canvas.width, this.canvas.height)
 
-        if (!options.cursorVisible) {
-            this.canvas.style.background = 'rgba(0, 0, 0, 0.0)'
-            return
-        }
-
         const globalAlpha = 0.9
         ctx.globalAlpha = globalAlpha
 
