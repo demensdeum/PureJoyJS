@@ -170,10 +170,6 @@ export class Joystick {
     }
 }
 
-module.exports = {
-    Joystick: Joystick
-};
-
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
         Joystick: Joystick
