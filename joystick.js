@@ -1,4 +1,4 @@
-class Joystick {
+export class Joystick {
     constructor(id, delegate, size) {
         this.id = id
         this.delegate = delegate
@@ -170,4 +170,12 @@ class Joystick {
     }
 }
 
-//module.exports = Joystick
+module.exports = {
+    Joystick: Joystick
+};
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        Joystick: Joystick
+    };
+}

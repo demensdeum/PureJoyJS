@@ -1,0 +1,27 @@
+{
+  "name": "purejoyjs",
+  "version": "1.0.0",
+  "description": "Virtual joystick with delegate function for JavaScript.",
+  "keywords": [
+    "joystick",
+    "touch",
+    "html5",
+    "canvas",
+    "game-control"
+  ],
+  "homepage": "https://github.com/demensdeum/PureJoyJS#readme",
+  "bugs": {
+    "url": "https://github.com/demensdeum/PureJoyJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demensdeum/PureJoyJS.git"
+  },
+  "license": "MIT",
+  "author": "Ilia Prokhorov (DemensDeum)",
+  "type": "commonjs",
+  "main": "joystick.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
