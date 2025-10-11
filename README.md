@@ -5,6 +5,14 @@ A simple, touch-friendly virtual joystick written in pure JavaScript, utilizing 
 
 It's great for touch controls because it leverages the modern Pointer Events API, which unifies input from mouse, touch, and pen. This ensures a reliable and responsive experience across mobile devices, tablets, and even desktops with touchscreens, making it an ideal choice for implementing virtual game controls.
 
+Available in npm:  
+https://www.npmjs.com/package/purejoyjs
+
+Install:  
+```
+npm i purejoyjs
+```
+
 Usage example:  
 ```
 <head>
